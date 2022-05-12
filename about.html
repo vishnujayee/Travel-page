@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/web-dev/Travel- Page/form.css" />
+    <link rel="stylesheet" href="sharedstyle.css" />
+    <meta charset="UTF-8" />
+
+    <title>Travel Goals</title>
+  </head>
+  <body>
+      
+        <header id="container">
+            <div>
+                <a id="logo" href="index.html">Travel goals</a></h1>
+    
+            </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="places.html"> Destination</a>
+              </li>
+              <li>
+                <a href="/web-dev/Travel- Page/about.html">About</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      
+      <form action="/user-data" method="get">
+          <label for="user-name"> Your Name</label>
+          <input type="text" name="user-name" id="user-name"/>
+          <label for="your-message"> your message</label>
+          <textarea name="message user" id="your-message"></textarea>
+          <label for="user-email"> Your email</label>
+          <input type="email" name="user-email" id="user-email"/>
+          <label for="userage">your age</label>
+          <input type="number" step="1"  name="userage" id="user-age"/>
+          <label for="your-password"> enter your-password</label>
+          <input type="password" name="password" id="your-password"/>
+          <label for="your-birthdate">birthdate</label>
+          <input type="date" name="birthdate" id="your-birthdate"/>
+          <hr>
+          <h2>
+            ENTER METHOD OF TKING YOUR DETAILs
+          </h2>
+          <div class="form">
+            <input type="radio" name="detail" id="message" value="via-message">
+            <label for="message"> via message</label>
+          </div>
+
+            <div class="form">
+            <input type="radio" name="detail" id="call" value="via-call">
+            <label for="call"> via call</label>
+              </div>
+              <div class="form">
+
+                <input type="checkbox" id="TERMS" name="terms"/>
+                <label for="TERMS"> AGREE TO TERMS</label>
+              </div>
+            <button>SUMBIT</button>
+          </form>
+      </body>
+
+          
+        
+          
+
